@@ -63,7 +63,7 @@
             </tr>
         </tbody>
     </table> -->
-    
+
     <!-- sırasız liste-->
     <!-- <ul style="list-style-type: circle;">listenin başındakini yuvarlak yaptı
         <li>Çay</li>
@@ -99,11 +99,50 @@
         <li>Su</li>
     </ol> -->
 
-    <select name="cars">
+    <!-- <select name="cars">
         <option value="volvo">Volvo</option>ilgili seçeneğe tıkladığımızda value içinde yazan değeri alırız
         <option value="mercedes">Mercedes</option>
         <option value="audi">Audi</option>
-    </select>
+    </select> -->
+    <form action="ControllerName ya da apicontroller">
+        <label>Adınız : </label>
+        <input type="text" placeholder="Adınızı Giriniz" name="ad"
+            value="" /><!-- value : başlangıç değeri. name ile bu değişkene ulaşabileceğiz-->
+        <label>Soyadınız : </label>
+        <input type="text" placeholder="Soyadınızı Giriniz" name="soyad"
+            value="" /><!-- value : başlangıç değeri. name ile bu değişkene ulaşabileceğiz-->
+        <label>Şifreniz : </label>
+        <input type="password" placeholder="Şifrenizi Giriniz" name="şifre"
+            value="" /><!-- value : başlangıç değeri. name ile bu değişkene ulaşabileceğiz-->
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eveniet cum cumque! Voluptates illo ullam eius
+            eos et, laboriosam, voluptate doloribus facere facilis vitae magnam repellat, dolores iure aliquid
+            perferendis!</p>
+
+    </form>
+
+    <!-- radiobutton'da bir tane seçilir, checkbox'ta birden çok seçilir-->
+    <h2>Radio Inputs</h2>
+    <form>
+        <input type="radio" name="gender" value="erkek" />
+        <label>Erkek</label>
+        <input type="radio" name="gender" value="kadın" />
+        <label>Kadın</label>
+    </form>
+    <h2>CheckBox Inputs</h2>
+    <form>
+        <input type="checkbox" name="gender" value="erkek" />
+        <label>Erkek</label>
+        <input type="checkbox" name="gender" value="kadın" />
+        <label>Kadın</label>
+    </form>
+    <h2>Text Area</h2>
+    <form>
+        <label>Adresiniz : </label>
+        <textarea  name="" cols="30" rows="5">
+
+        </textarea>
+    </form>
 </body>
 
 </html>
