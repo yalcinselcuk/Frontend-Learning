@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td{/*css veriyoruz ilgili başlıklara*/
+            border: 1px solid;
+        }
+        th, td{
+            padding: 15px;/*ilgili alanların genişliğini belirtiyoruz */
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +25,7 @@
     <h5>h5 kısmı</h5>
     <h6>h6 kısmı</h6> 
     -->
-    <div style="background-image: url('https://www.emaildesignreview.com/wp-content/uploads/2018/12/abstract-background-1024x273.jpg'); height: 500px; width: 500px;">
+    <!-- <div style="background-image: url('https://www.emaildesignreview.com/wp-content/uploads/2018/12/abstract-background-1024x273.jpg'); height: 500px; width: 500px;">
 
         <h1 style="color: blue; background-color: red;">Frontend</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -27,7 +35,34 @@
             perspiciatis fugit nesciunt!</p>
         <img style="background-color: black; height: 50%; width: 50%; "
             src="https://companieslogo.com/img/orig/TKC_BIG.D-e9fba9f0.png?t=1678857014" alt="turkcell logo">
-    </div>
+    </div> -->
+
+    <table style="width: 100%;">
+        <thead style="background-color: gray;">
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+            </tr>
+        </thead>
+        <tbody style="text-align: center;">
+            <tr>
+                <td>Yalçın</td>
+                <td>Selçuk</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Kerem</td>
+                <td>Yılmazer</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Abdulkadir</td>
+                <td>Dikmen</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
