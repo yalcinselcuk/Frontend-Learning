@@ -18,14 +18,14 @@ h3 {
 } */
 
 /* margin en dıştaki katmandır. dış çerçeve olarak düşünülebilir*/
-.frt{
+/* .frt{
     margin-bottom: 30px;
 }
 .bck{
     margin: 20px;
     border: 1px solid;
     padding: 30px;
-}
+} */
 /* 
 padding : content'in hemen üstündeki çerçeve 
 border : padding'ten sonraki kısım
