@@ -9,10 +9,26 @@
     color: yellow;
 } */
 
-h1,
+/* h1,
 p,
 h2,
 h3 {
     color: aqua;
     text-align: center;
+} */
+
+/* margin en dıştaki katmandır. dış çerçeve olarak düşünülebilir*/
+.frt{
+    margin-bottom: 30px;
 }
+.bck{
+    margin: 20px;
+    border: 1px solid;
+    padding: 30px;
+}
+/* 
+padding : content'in hemen üstündeki çerçeve 
+border : padding'ten sonraki kısım
+margin : border'ın üstündeki ve en dıştaki kısım
+padding ve margin'i default kullanırsak 4 bir yandan eşit uzaklık alır
+*/
