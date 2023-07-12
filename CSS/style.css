@@ -5,6 +5,14 @@
 } */
 
 /* class'a ekleme yaparken nokta ile belirtiriz class'ı */
-.css-egitimi{
+/* .css-egitimi{
     color: yellow;
+} */
+
+h1,
+p,
+h2,
+h3 {
+    color: aqua;
+    text-align: center;
 }
