@@ -41,7 +41,7 @@ padding ve margin'i default kullanırsak 4 bir yandan eşit uzaklık alır
     margin-right: 280px;
     padding: 20px;
 }
-input[type=text], select{
+.formElement{
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -50,11 +50,12 @@ input[type=text], select{
     box-sizing: border-box;
     margin-top: 8px;
     margin-bottom: 8px;
+    border: 1px solid red;
     
     
 }
 /* box-sizing ile border'ın content'in üstüne gelmesini engelledik */
-input[type=submit]{
+.submitElement{
     width: 100%;
     padding: 13px 0px ;
     background-color: lightgreen;
